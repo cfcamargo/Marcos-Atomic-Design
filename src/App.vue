@@ -1,17 +1,17 @@
 <template>
   <div class="componenent">
-    <NavBar />
-    <SearchForm />
-    <SocialNetworks />
+    <Header />
+    <Presentation />
+    <Services />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { NavBar, SearchForm, SocialNetworks } from '@/components/molecules'
+import { Header, Presentation, Services } from '@/components/organisms'
 
 export default defineComponent({
-  components: { NavBar, SearchForm, SocialNetworks }
+  components: { Header, Presentation, Services }
 })
 </script>
 
